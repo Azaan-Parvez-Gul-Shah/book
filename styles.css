@@ -1,11 +1,18 @@
 body {
     font-family: 'Arial', sans-serif;
-    font-size: large;
+    font-size: 32px;
     margin: 0;
     padding: 0;
     color:#333;
-background-color: aqua;
-    
+background-color: aqua;   
+}
+
+p {
+    font-family: 'Times New Roman', serif;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    color:#333;
 }
 
 #container {
@@ -43,4 +50,116 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+    font-family: 'Arial', sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color:#333;
+background-color: aqua;   
+}
+
+p {
+    font-family: 'Times New Roman', serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color:#333;
+}
+
+#container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100%;
+}
+
+header, footer {
+    background-color: #333;
+    color:gray;
+    
+    padding: 100%;
+}
+
+main {
+    display: flex;
+}
+
+#book-content {
+    flex: 2;
+    padding-right: 100%;
+}
+
+#sidebar {
+    flex: 1;
+    background-color: gray;
+    padding: 100%;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 601px) {
+    body {
+    font-family: 'Arial', sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color:#333;
+background-color: aqua;   
+}
+
+p {
+    font-family: 'Times New Roman', serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color:#333;
+}
+
+#container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100%;
+}
+
+header, footer {
+    background-color: #333;
+    color:gray;
+    
+    padding: 100%;
+}
+
+main {
+    display: flex;
+}
+
+#book-content {
+    flex: 2;
+    padding-right: 100%;
+}
+
+#sidebar {
+    flex: 1;
+    background-color: gray;
+    padding: 100%;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+}
 }
